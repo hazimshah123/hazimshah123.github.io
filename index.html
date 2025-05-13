@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Hazim Bin Nazir - Portfolio</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+	<link rel="stylesheet" href="css/meyawo.css">
+	<!-- Bootstrap 5 CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+.floating-icon {
+  position: fixed;
+  right: 20px;
+  z-index: 999;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  background-color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: slideUpBounce 0.8s ease forwards;
+  opacity: 0;
+}
+
+.floating-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.floating-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.25);
+}
+
+/* Individual positions */
+.whatsapp { bottom: 200px; background-color: #25D366; animation-delay: 0.3s; }
+.instagram { bottom: 140px; background-color: #E1306C; animation-delay: 0.2s; }
+.facebook { bottom: 80px; background-color: #1877f2; animation-delay: 0.1s; }
+.linkedin { bottom: 20px; background-color: #0A66C2; animation-delay: 0s; }
+
+/* Slide + bounce animation */
+@keyframes slideUpBounce {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(-15px);
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;  /* <-- make sure it stays visible */
+  }
+}
+
+</style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    
+	<nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar fixed-top">
+  <div class="container">
+    <a class="navbar-brand logo animate-brand" href="index.html">
+  <span class="brand-fade">Hazim</span> <span class="brand-pop">Bin</span> <span class="brand-fade">Nazir</span>
+</a>
+</nav>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link" href="#home">Home</a>
+        <a class="nav-item nav-link" href="#about">About</a>
+        <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-item nav-link" href="#testmonial">Testmonial</a>
+        <a class="nav-item nav-link" href="#blog">Blog</a>
+        <a class="nav-item nav-link" href="#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+
+
+
+	
+	
+	
+	
+	
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I'm Hazim</span>
+            </h1>
+            <p class="header-subtitle">Fullstack Web Developer</p>            
+
+            <button class="btn btn-primary">Visit My Works</button>
+        </div>              
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="imgs/.png" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        Hi, I'm a passionate Full-Stack Web Developer with a strong background in both front-end and back-end development. I specialize in building dynamic, responsive, and user-friendly websites and web applications that solve real-world problems and deliver excellent user experiences.
+                        <p>With hands-on experience in technologies like HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and MySQL, I bring ideas to life from concept to deployment. I’m also familiar with tools like Git, REST APIs, and cloud services that ensure scalable and maintainable solutions.   <p> Whether it’s designing sleek interfaces or optimizing server-side performance, I enjoy working across the full stack to create efficient, modern digital products. I love learning new technologies, tackling complex challenges, and collaborating with teams to build high-impact software.<p> Currently, I’m looking for exciting freelance or full-time opportunities where I can contribute, grow, and continue making meaningful products.         
+                    </p>
+                  <a href="resume.pdf" target="_blank">  <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button></a>
+                </div>              
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!-- Service Section -->
+<section class="section" id="service">
+  <div class="container text-center">
+
+    <!-- Section Header -->
+    <p class="section-subtitle">What I Do?</p>
+    <h6 class="section-title mb-6">Service</h6>
+
+    <!-- Service Cards Row -->
+    <div class="row">
+
+      <!-- Service Card 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="service-card">
+          <div class="body">
+            <img 
+              src="imgs/pencil-case.svg" 
+              alt="Web Application Development Icon" 
+              class="icon"
+            >
+            <h6 class="title">Web Application Development</h6>
+            <p class="subtitle">
+              I build fast, scalable, and secure full-stack web applications using modern technologies.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service Card 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="service-card">
+          <div class="body">
+            <img 
+              src="imgs/responsive.svg" 
+              alt="Front-End Development Icon" 
+              class="icon"
+            >
+            <h6 class="title">Front-End Development</h6>
+            <p class="subtitle">
+              I design responsive and interactive front-end interfaces using HTML, CSS, JavaScript, and frameworks like React.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service Card 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="service-card">
+          <div class="body">
+            <img 
+              src="imgs/toolbox.svg" 
+              alt="Back-End Development Icon" 
+              class="icon"
+            >
+            <h6 class="title">Back-End Development & API Integration</h6>
+            <p class="subtitle">
+              I develop robust server-side logic, RESTful APIs, and database management systems.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service Card 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="service-card">
+          <div class="body">
+            <img 
+              src="imgs/analytics.svg" 
+              alt="Maintenance and Optimization Icon" 
+              class="icon"
+            >
+            <h6 class="title">Maintenance & Optimization</h6>
+            <p class="subtitle">
+              I provide website maintenance, bug fixing, performance tuning, and feature updates.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- End of row -->
+
+  </div> <!-- End of container -->
+</section>
+<!-- End of Service Section -->
+
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Did ?</p>
+            <h6 class="section-title mb-6">Portfolio</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img src="imgs/1.jpg" class="portfolio-card-img" alt="Fullstack">    
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>E-Commerce Websites</h4>
+                                
+                            </span>                         
+                        </span>                     
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="imgs/folio-2.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Full-Stack Development</h4>
+                            </span>                         
+                        </span>                         
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="imgs/folio-3.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">    
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>From concept to launch</h4>
+                            </span>                         
+                        </span>                     
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+    <!-- pricing section -->
+    <section class="section" id="pricing">
+        <div class="container text-center">
+            <p class="section-subtitle">How Much I Charge ?</p>
+            <h6 class="section-title mb-6">My Pricing</h6>
+            <!-- row -->
+            <div class="pricing-wrapper">
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="imgs/scooter.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Basic</h6>
+                        <div class="pricing-card-list">
+                            <p>✅ 1-3 Pages</p>
+                            <p>✅ Responsive Design</p>
+                            <p>✅ Contact Form</p>
+                            <p>✅ Delivery in 7 Days</p>
+							<p>❌ Admin Panel</p>
+							<p>❌ SEO Setup & Speed Optimization</p>
+                            
+                        </div>
+                    </div>
+                    <div class="pricing-card-footer">
+                       <span>₹</span>
+                        <span>10,999</span>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Book Now</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="imgs/shipped.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Premium</h6>
+                        <div class="pricing-card-list">
+                            <p>✅ Up to 6 Pages</p>
+                            <p>✅ Custom UI Design</p>
+                            <p>✅ Admin Panel (Basic)</p>
+							<p>✅ Blog or Product Section</p>
+                            <p>✅ Delivery in 10–15 Days</p>
+							<p>❌ SEO Setup & Speed Optimization</p>
+                    <p></p>
+                        </div>
+                    </div>
+                    <div class="pricing-card-footer">
+                        <span>₹</span>
+                        <span>15,999</span>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Book Now</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="imgs/startup.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Gold</h6>
+                        <div class="pricing-card-list">
+                            <p>✅ Unlimited Pages</p>
+                            <p>✅ Advanced Admin Panel</p>
+                            <p>✅ Payment Gateway Integration</p>
+                            <p>✅ SEO Setup & Speed Optimization</p>
+                            <p>✅ Free 1-Month Support</p>
+                            <p>✅ Delivery in 25–30 Days</p>
+                        </div>
+                    </div>
+                    <div class="pricing-card-footer">
+                        <span>₹</span>
+                        <span>35,499</span>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Book Now</a>
+                </div>
+
+            </div><!-- end of pricing wrapper -->
+        </div> <!-- end of container -->
+    </section><!-- end of pricing section -->
+
+    <!-- section -->
+    <section class="section-sm bg-primary">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to work with me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                   <a href="https://forms.gle/Pp6623uE3GrneLCG6" target="_blank"> <button class="btn btn-lg my-font btn-light rounded">Hire Me</button></a>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
+
+    <!-- testimonial section -->
+    <section class="section" id="testmonial">
+        <div class="container text-center">
+            <p class="section-subtitle">What Think Client About Me ?</p>
+            <h6 class="section-title mb-6">Testmonial</h6>
+
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-img-holder">
+                            <img src="imgs/avatar2.jpg" class="testimonial-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">                           
+                        </div>
+                        <div class="testimonial-card-body">
+                            <p class="testimonial-card-subtitle">"Working with Hazim was a game-changer. He delivered a sleek, fast website that exceeded our expectations. Highly recommend for any web project!"</p>
+                            <h6 class="testimonial-card-title">— Sana Mir, Founder, Local Treasures</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-img-holder">
+                            <img src="imgs/avatar3.jpg" class="testimonial-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">                        
+                        </div>
+                        <div class="testimonial-card-body">
+                            <p class="testimonial-card-subtitle">"From design to deployment, the entire process was smooth and professional. Our new site looks and works perfectly on all devices."</p>
+                            <h6 class="testimonial-card-title">— Abid Bhat, Owner, Arwa Tour & Travel</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end of container -->
+    </section> <!-- end of testimonial section -->
+    
+    <!-- blog section -->
+<section class="section" id="blog">
+    <!-- container -->
+    <div class="container text-center">
+        <p class="section-subtitle">Recent Posts?</p>
+        <h6 class="section-title mb-6">Blog</h6>
+        <!-- blog-wrapper -->
+        <div class="blog-card">
+            <div class="blog-card-header">
+                <img src="imgs/img-1.jpg" class="blog-card-img" alt="Artificial Intelligence article image">
+            </div>
+            <div class="blog-card-body">
+                <h5 class="blog-card-title">The Power of Artificial Intelligence</h5>
+
+<p class="blog-card-caption">
+    <a href="#">By: Admin</a>
+    <a href="#"><i class="ti-heart text-danger"></i> 234</a>
+    <a href="#"><i class="ti-comment"></i> 123</a>
+</p>
+
+<p>Artificial Intelligence is no longer a futuristic dream — it powers apps we use every day, from smart assistants to recommendation engines.</p>
+
+<p><b>AI is helping industries automate tasks, improve user experiences, and make faster decisions.</b></p>
+
+<div class="blog-card-extra-content hidden">
+    <p>From healthcare to finance, AI is detecting patterns and enabling better predictions. As it matures, ethical use and transparency will define its success.</p>
+    <p>Looking ahead, AI could solve complex challenges like disease detection and climate modeling — but only if we guide it responsibly.</p>
+</div>
+
+<a href="#" class="blog-card-link toggle-article">Read more <i class="ti-angle-double-right"></i></a>
+
+
+            </div>
+        </div><!-- end of blog wrapper -->
+
+        <!-- blog-wrapper -->
+        <div class="blog-card">
+            <div class="blog-card-header">
+                <img src="imgs/img-2.jpg" class="blog-card-img" alt="Machine Learning article image">
+            </div>
+            <div class="blog-card-body">
+                <h5 class="blog-card-title">Machine Learning in Real Life</h5>
+
+<p class="blog-card-caption">
+    <a href="#">By: Admin</a>
+    <a href="#"><i class="ti-heart text-danger"></i> 456</a>
+    <a href="#"><i class="ti-comment"></i> 264</a>
+</p>
+
+<p>Machine Learning allows systems to learn from data without being explicitly programmed, fueling innovation across industries.</p>
+
+<p><b>Whether predicting customer behavior or detecting fraud, ML is behind many smart tools we rely on.</b></p>
+
+<div class="blog-card-extra-content hidden">
+    <p>It's used in spam filters, credit scoring, medical imaging, and even self-driving cars. These models improve over time as they learn from more data.</p>
+    <p>As ML continues to evolve, its responsible use — including bias reduction and explainability — will become increasingly critical.</p>
+</div>
+
+<a href="#" class="blog-card-link toggle-article">Read more <i class="ti-angle-double-right"></i></a>
+
+            </div>
+        </div><!-- end of blog wrapper -->
+
+    </div><!-- end of container -->
+</section><!-- end of blog section -->
+
+
+    
+	
+	
+	
+	
+	
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">       
+            <p class="mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; Hazim Bin Nazir</p>
+            
+        </footer>
+    </div> <!-- end of page footer -->
+	
+	<!-- core  -->
+    <script src="vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+	<script src="vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="js/meyawo.js"></script>
+<script>
+
+document.querySelectorAll('.toggle-article').forEach(link => {
+    link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const extraContent = this.previousElementSibling;
+        extraContent.classList.toggle('expanded');
+
+        const icon = this.querySelector('i');
+        if (extraContent.classList.contains('expanded')) {
+            this.innerHTML = 'Read less <i class="ti-angle-double-up"></i>';
+        } else {
+            this.innerHTML = 'Read more <i class="ti-angle-double-right"></i>';
+        }
+    });
+});
+</script>
+
+<!-- Floating Social Media Icons -->
+<a href="https://wa.me/917006149438" class="floating-icon whatsapp" target="_blank" title="Chat on WhatsApp">
+  <img src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="WhatsApp" />
+</a>
+
+<a href="https://www.instagram.com/shah_hazem/" class="floating-icon instagram" target="_blank" title="Instagram">
+  <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram" />
+</a>
+
+<a href="https://www.facebook.com/khabarkus" class="floating-icon facebook" target="_blank" title="Facebook">
+  <img src="https://img.icons8.com/fluency/48/facebook-new.png" alt="Facebook" />
+</a>
+
+<a href="https://www.linkedin.com/in/hazimbinnazir" class="floating-icon linkedin" target="_blank" title="LinkedIn">
+  <img src="https://img.icons8.com/fluency/48/linkedin.png" alt="LinkedIn" />
+</a>
+
+
+
+</body>
+</html>
